@@ -449,22 +449,49 @@ main:has(#section2 .title[img-title="opera"]:hover) .images #opera {
 
   #section1 {
     --gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
 
     .middle {
+      width: 100%;
+
+      .right {
+        display: none;
+      }
+
       .left {
-        padding-block: 4rem;
+        width: 100%;
+        padding-block: 0;
+        padding-top: 7.5rem;
+        padding-left: 1.5rem;
+        align-items: flex-start;
+        justify-content: flex-start;
 
         h1 {
-          font-size: 3.2rem;
-          line-height: 0.85;
+          width: 100%;
+          font-size: 3.4rem;
+          line-height: 0.9;
+          text-align: left;
         }
       }
     }
 
     .bottom {
+      width: 100%;
+
+      .left {
+        display: none;
+      }
+
       .right {
+        width: 100%;
+        padding-bottom: 2rem;
+        padding-left: 1.5rem;
+        margin-top: 2.5rem;
+
         p {
-          font-size: 0.8rem;
+          width: 100%;
+          font-size: 1.05rem;
           line-height: 1.6;
         }
       }
@@ -558,12 +585,14 @@ main:has(#section2 .title[img-title="opera"]:hover) .images #opera {
 
   #section1 {
     .middle {
-      margin-top: 100px;
-      /* height: 100%; */
       .left {
-        padding-block: 3rem;
+        padding-block: 0;
+        padding-top: 7rem;
+        padding-left: 1.5rem;
+
         h1 {
-          font-size: 2.6rem;
+          width: 100%;
+          font-size: 3rem;
         }
       }
     }
@@ -571,8 +600,15 @@ main:has(#section2 .title[img-title="opera"]:hover) .images #opera {
   .bottom{
  .right{
       /* background-color: #ff3333; */
+      width: 100%;
+      padding-left: 1.5rem;
       padding-right:10px;
+      margin-top: 2.5rem;
 
+      p {
+        width: 100%;
+        font-size: 1.1rem;
+      }
       }
   }
 
