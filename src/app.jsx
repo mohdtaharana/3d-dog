@@ -245,6 +245,10 @@ export function App() {
           </div>
         </section>
       </main>
+
+      <div className="dev-credit">
+        Developed by <a href="https://taha-rana.vercel.app" target="_blank" rel="noreferrer">Taha Rana</a>
+      </div>
     </>
   )
 }
