@@ -23,6 +23,27 @@ html.menu-open {
   overflow: hidden !important;
 }
 
+.dev-credit {
+  position: fixed;
+  bottom: 1rem;
+  right: 1.5rem;
+  z-index: 45;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  color: #fff;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
 /* Hide scrollbar visually while keeping layout stable */
 ::-webkit-scrollbar {
   display: none;
